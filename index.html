@@ -1,67 +1,141 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Bayush Ingjera -ባዩሽ እንጀራ </title>
+    <meta name="description" content="Bayush Injera - Premium Ethiopian food products and services. Quality is our brand since 2025.">
+    <meta name="keywords" content="Ethiopian food, injera, Bayush, Hawassa, Ethiopia, quality food">
+    <title>Bayush Injera - ባዩሽ እንጀራ | Quality is Our Brand</title>
     <link rel="stylesheet" href="css/style.css">
     <link rel="icon" href="images/favicon.ico">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 </head>
 <body>
-    <script src="js/scripts.js" defer></script>
-    <!-- Header with logo -->
+    <!-- Header -->
     <header>
-        <div class="logo-container">
-            <img src="images/logo.png" alt="Bayush Injera ባዩሽ እንጀራ  Logo" class="logo-img">
-            <div class="logo-text">Bayush Injera</div>
-        </div>
-        <nav>
-            <ul>
-                <li><a href="index.html" class="active">Home</a></li>
-                <li><a href="services.html">Services</a></li>
-                <li><a href="about.html">About Us</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
-    
-    <section class="video-hero">
-    <video autoplay muted loop id="hero-video">
-        <source src="videos/showcase.mp4" type="video/mp4">
-        Your browser does not support HTML5 video.
-    </video>
-    <div class="video-overlay">
-        <h1>QUALITY IS OUR BRAND</h1>
-        <a href="#contact" class="btn">Get Started</a>
-    </div>
-     </section>
-    
-    <!-- Footer -->
-    <footer>
-        <div class="footer-content">
-            <div class="footer-column">
-                <img src="images/logo.png" alt="Bayush Injera -ባዩሽ እንጀራ  Logo" class="footer-logo">
-                <p>Providing exceptional services since 2025.</p>
+        <div class="header-content">
+            <div class="logo-container">
+                <img src="images/logo.png" alt="Bayush Injera - ባዩሽ እንጀራ Logo" class="logo-img">
+                <div class="logo-text">Bayush Injera</div>
             </div>
-            <div class="footer-column">
-                <h3>Quick Links</h3>
+            <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
+                    <li><a href="index.html" class="active">Home</a></li>
                     <li><a href="services.html">Services</a></li>
                     <li><a href="about.html">About Us</a></li>
                     <li><a href="contact.html">Contact</a></li>
                 </ul>
-            </div>
-            <div class="footer-column">
-                <h3>Contact Us</h3>
-                <p>Email: info@bayushingera.com</p>
-                <p>Phone: +251985131469</p>
-                <p>Hawassa, Ethiopia</p>
-            </div>
+            </nav>
         </div>
-        <div class="copyright">
-            &copy; 2025 Bayush Ingera. All rights reserved.
+    </header>
+    
+    <!-- Hero Section -->
+    <main>
+        <section class="video-hero">
+            <video autoplay muted loop id="hero-video" aria-label="Bayush Injera showcase video">
+                <source src="videos/showcase.mp4" type="video/mp4">
+                Your browser does not support HTML5 video.
+            </video>
+            <div class="video-overlay">
+                <h1>QUALITY IS OUR BRAND</h1>
+                <p>Experience the finest Ethiopian food products crafted with tradition and excellence</p>
+                <a href="contact.html" class="btn">Get Started</a>
+            </div>
+        </section>
+
+        <!-- About Preview Section -->
+        <section class="section">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 3rem; color: var(--primary);">Why Choose Bayush Injera?</h2>
+                <div class="about-grid">
+                    <div class="about-card animate-on-scroll">
+                        <h3>🌾 Premium Quality</h3>
+                        <p>We use only the finest ingredients and traditional methods to ensure every product meets our high standards of excellence.</p>
+                    </div>
+                    <div class="about-card animate-on-scroll">
+                        <h3>🏆 Trusted Since 2025</h3>
+                        <p>Building a reputation for reliability and quality in the Ethiopian food industry with customer satisfaction at our core.</p>
+                    </div>
+                    <div class="about-card animate-on-scroll">
+                        <h3>🚀 Innovation</h3>
+                        <p>Combining traditional Ethiopian food preparation with modern techniques to deliver the best products to our customers.</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="about.html" class="btn">Learn More About Us</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services Preview -->
+        <section class="section" style="background-color: var(--gray-light);">
+            <div class="container">
+                <h2 style="text-align: center; margin-bottom: 3rem; color: var(--primary);">Our Services</h2>
+                <div class="service-items">
+                    <div class="service-item animate-on-scroll">
+                        <h3>Premium Injera Production</h3>
+                        <p>Fresh, authentic injera made daily using traditional fermentation methods and high-quality teff flour.</p>
+                    </div>
+                    <div class="service-item animate-on-scroll">
+                        <h3>Custom Food Solutions</h3>
+                        <p>Tailored food products and services to meet the specific needs of restaurants, hotels, and retail businesses.</p>
+                    </div>
+                    <div class="service-item animate-on-scroll">
+                        <h3>Quality Assurance</h3>
+                        <p>Rigorous quality control processes ensure every product meets our standards before reaching our customers.</p>
+                    </div>
+                </div>
+                <div style="text-align: center; margin-top: 2rem;">
+                    <a href="services.html" class="btn">View All Services</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact CTA -->
+        <section class="section">
+            <div class="container">
+                <div style="text-align: center; padding: 3rem; background: linear-gradient(135deg, var(--primary) 0%, var(--secondary) 100%); border-radius: var(--radius-xl); color: white;">
+                    <h2 style="color: white; margin-bottom: 1rem;">Ready to Experience Quality?</h2>
+                    <p style="color: white; opacity: 0.9; margin-bottom: 2rem; font-size: var(--font-size-lg);">Contact us today to learn more about our products and services.</p>
+                    <a href="contact.html" class="btn" style="background-color: white; color: var(--primary);">Contact Us</a>
+                </div>
+            </div>
+        </section>
+    </main>
+    
+    <!-- Footer -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <img src="images/logo.png" alt="Bayush Injera - ባዩሽ እንጀራ Logo" class="footer-logo">
+                    <p>Providing exceptional Ethiopian food products since 2025. Quality is our commitment to you.</p>
+                </div>
+                <div class="footer-column">
+                    <h3>Quick Links</h3>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="services.html">Services</a></li>
+                        <li><a href="about.html">About Us</a></li>
+                        <li><a href="contact.html">Contact</a></li>
+                    </ul>
+                </div>
+                <div class="footer-column">
+                    <h3>Contact Information</h3>
+                    <p>📧 info@bayushinjera.com</p>
+                    <p>📞 +251 985 131 469</p>
+                    <p>📍 Hawassa, Ethiopia</p>
+                    <p>🕒 Mon-Fri: 8:30 AM - 5:30 PM</p>
+                </div>
+            </div>
+            <div class="copyright">
+                &copy; <span class="current-year">2025</span> Bayush Injera. All rights reserved.
+            </div>
         </div>
     </footer>
+
+    <!-- JavaScript -->
+    <script src="js/scripts.js" defer></script>
 </body>
 </html>
